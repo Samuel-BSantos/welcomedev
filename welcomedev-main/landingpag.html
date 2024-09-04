@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainL{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            background-color: #f1f1f1;
+            padding: 20px 10px;
+            border-radius: 6px 6px 6px 6px;
+            opacity: 0.9;
+        }
+        body{
+            background-image: url("images/game-programming-04.jpg");
+        }
+        *{
+            margin: none;
+            padding: none;
+        }
+        img{
+            width: auto;
+        }
+        header a{
+            float: right;
+            text-align: center;
+            padding: 12px;
+            margin: 1px;
+            color:black;
+            border-radius: 6px;
+            text-decoration: none;
+            background-color: bisque;
+        }
+
+        header a:hover{
+            background-color:purple;
+            color:white;
+        }
+        .container{
+            display: flex;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: flex-end;
+        }
+        .title{
+            font-size: 80px;
+            margin: none;
+            width: 50vw;
+            color: rgb(238, 255, 0);
+            font-family: "Josefin Sans", sans-serif;
+            opacity: 0.8;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="mainL">
+        <header>
+            <div class="logo">
+                <p>WD</p>
+            </div>
+            <div>
+                <a class='cadastro' href="index.html">cadastre-se</a>
+                <a class='entrar' href="signin.html">entre na sua conta</a>
+            </div>    
+        </header>
+        <div class="info">
+            <div class="title">
+                <h1>WELCOME DEV</h1>
+            </div>
+        </div>
+    </section> 
+</body>
+</html>
